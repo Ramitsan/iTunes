@@ -68,7 +68,7 @@ export const videoPlayerInit = () => {
     videoPlayer.currentTime = (value * duration) / 100;
   });
 
-  // регулятор громкости 
+  // регулятор громкости видео
   videoVolume.addEventListener('input', () => {
     videoPlayer.volume = videoVolume.value / 100;
   });
